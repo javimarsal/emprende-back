@@ -4,9 +4,7 @@ const http = require("http")
 
 function requestController () {
     // Lógica de nuestra función
-    console.log("Recibimos una nueva request")
-    console.log(`Dirname: ${__dirname}`)
-    console.log(`Filename: ${__filename}`)
+    console.log("Hola mundo!!")
 }
 
 const server = http.createServer(requestController)
